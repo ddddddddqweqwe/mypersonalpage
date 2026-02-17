@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_personal_page</title>
+    <link rel="stylesheet" href="fonts/main_font.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Сбрасывание стандартных стилей и добавление шрифтов */
+        body {
+            margin: 0;
+            font-family: 'StratosSkyeng', sans-serif;
+        }
+
+        .content {
+            /* Ввод ввода */
+            /* Ввод ввода */
+            background-size: cover;
+            min-height: 100vh;
+        }
+
+        /* Класс для расположения элементов */
+        .in-one-line {
+            display: flex;
+            /* Отступ между элементами */
+            gap: 32px;
+        }
+
+        /* Класс для центрирования страницы */
+        .center {
+            padding-left: calc(50% - 500px);
+            padding-right: calc(50% - 500px);
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="center">
+            <h1>Добро пожаловать на мою страницу!</h1>
+            <h2>Немного обо мне</h2>
+
+            <img src="images/goose.jpeg" alt="Моя любимая картинка" class="avatar">
+
+            <p>Привет! Меня зовут [stb]. Я увлекаюсь веб-разработкой и создаю этот сайт в рамках домашнего задания. Здесь я расскажу немного о себе, своих интересах и чувстве юмора.</p>
+
+            <h3>Мои увлечения:</h3>
+            <ul>
+                <li>Путешествия и изучение новых мест</li>
+                <li>Настольные игры (особенно "Колонизаторы")</li>
+                <li>Чтение научной фантастики</li>
+                <li>Прогулки с друзьями</li>
+                <li>Просмотр смешных мемов с гусями</li>
+            </ul>
+
+            <div class="in-one-line navigation">
+                <a href="index.html">Главная</a>
+                <a href="facts.html">Факты</a>
+                <a href="memes.html">Мемы</a>
+                <a href="quotes.html">Цитаты</a>
+            </div>
+        </div>
+    </div>
+    <!-- Лишний блок удален, а div.in-one-line перенесен внутрь навигации -->
+</body>
+</html>

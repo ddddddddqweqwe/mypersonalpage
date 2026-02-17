@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои любимые мемы</title>
+    <link rel="stylesheet" href="fonts/main_font.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'StratosSkyeng', sans-serif;
+        }
+        .content {
+            background-size: cover;
+            min-height: 100vh;
+        }
+        .in-one-line {
+            display: flex;
+            gap: 32px;
+        }
+        .center {
+            padding-left: calc(50% - 500px);
+            padding-right: calc(50% - 500px);
+        }
+        .meme-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin: 30px 0;
+        }
+        .meme-gallery img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="center">
+            <h1>Моя коллекция мемов</h1>
+            
+            <div class="meme-gallery">
+                <img src="images/meme1.jpeg" alt="Мем 1">
+                <img src="images/meme2.jpeg" alt="Мем 2">
+                <img src="images/meme3.png" alt="Мем 3">
+                <img src="images/meme4.jpeg" alt="Мем 4">
+            </div>
+
+            <div class="in-one-line navigation">
+                <a href="index.html">Главная</a>
+                <a href="facts.html">Факты</a>
+                <a href="memes.html">Мемы</a>
+                <a href="quotes.html">Цитаты</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
